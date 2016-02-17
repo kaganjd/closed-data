@@ -1,0 +1,64 @@
+ body {
+	margin: 5px;
+	font-family: sans-serif;
+	background-image: url('assets/shirt.jpg');
+	color: white;
+    }
+
+ h1 {
+ 	background-color: rgba(255, 51, 204, .8);
+ 	font-size: 36px;
+	font-weight: 300;
+	line-height: 1.2em;
+	margin: 3px;
+ }   
+
+#line1{
+	width: 250px;
+}
+
+#line2{
+	width: 370px;
+}
+
+#line3{
+	width: 500px;
+}
+
+#line4{
+	width: 470px;
+}
+#line5{
+	width: 170px;
+}
+
+#carousel2 {
+	border: 3px solid black;
+	background: white;
+	overflow: scroll;
+	height: 100px;
+	
+}
+
+p {
+	color: black;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 900;
+	font-style: oblique;
+}
+
+img {
+	float: right;
+}
+/*#carousel2 > p {	
+	-moz-animation: 10s
+					reverse
+					infinite
+					dataScroll;
+}
+
+   @-moz-keyframes dataScroll { from { margin-top:0%; } 
+   			to { margin-top:100%; }  }
+}
+}*/
